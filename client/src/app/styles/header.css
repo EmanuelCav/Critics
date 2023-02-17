@@ -1,0 +1,44 @@
+.container-header {
+    height: 52px;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.container-logo-header {
+    width: 50%;
+    display: inline-flex;
+    text-align: center;
+}
+.logo-header {
+    width: 40px;
+    cursor: pointer;
+}
+.text-header {
+    color: var(--main-color);
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.container-auth-header {
+    text-align: right;
+    width: 50%;
+}
+.redirect-login {
+    color: var(--pass-color);
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 48px;
+}
+.redirect-login:hover {
+    text-decoration: underline;
+}
+.redirect-login:active {
+    text-decoration: none;
+}
